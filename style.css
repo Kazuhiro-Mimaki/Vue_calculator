@@ -1,0 +1,113 @@
+body {
+  font-size: 2rem;
+  width: 300px;
+  margin: 0 auto;
+  min-height: 100vh;
+  text-align: center;
+}
+
+header {
+  margin-top: 50px;
+}
+
+
+.container {
+  margin-top: 10px;
+  display: grid;
+  grid-template:
+    "C pm persent divide"
+    "seven eight nine multiply"
+    "four five six minus"
+    "one two three plus"
+    "zero ... dot equal";
+    gap: 10px;
+}
+
+.current {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.C {
+  grid-area: C;
+  background-color: silver;
+}
+
+.pm {
+  grid-area: pm;
+  background-color: silver;
+}
+
+.percent {
+  grid-area: persent;
+  background-color: silver;
+}
+
+.divide {
+  grid-area: divide;
+  background-color: orange;
+}
+
+.seven {
+  grid-area: seven;
+}
+
+.eight {
+  grid-area: eight;
+}
+
+.nine {
+  grid-area: nine;
+}
+
+.multiply {
+  grid-area: multiply;
+  background-color: orange;
+}
+
+.four {
+  grid-area: four;
+}
+
+.five {
+  grid-area: five;
+}
+
+.six {
+  grid-area: six;
+}
+
+.minus {
+  grid-area: minus;
+  background-color: orange;
+}
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+.plus {
+  grid-area: plus;
+  background-color: orange;
+}
+
+.zero {
+  grid-area: zero;
+}
+
+.dot {
+  grid-area: dot;
+}
+
+.equal {
+  grid-area: equal;
+  background-color: orange;
+}
